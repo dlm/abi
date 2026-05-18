@@ -12,4 +12,4 @@ test:
     go test -v ./...
 
 update-abi-testdata:
-    nix run github:blocky/abi-testdata -- --package-name=abi_test > abitestdata_test.go
+    nix run github:dlm/abi-testdata -- --package-name=abi_test > abitestdata_test.go

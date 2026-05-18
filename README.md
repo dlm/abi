@@ -1,7 +1,7 @@
 # abi
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/blocky/abi.svg)](https://pkg.go.dev/github.com/blocky/abi)
-[![Go Report Card](https://goreportcard.com/badge/github.com/blocky/abi)](https://goreportcard.com/report/github.com/blocky/abi)
+[![Go Reference](https://pkg.go.dev/badge/github.com/dlm/abi.svg)](https://pkg.go.dev/github.com/dlm/abi)
+[![Go Report Card](https://goreportcard.com/badge/github.com/dlm/abi)](https://goreportcard.com/report/github.com/dlm/abi)
 [![Go Version](https://img.shields.io/badge/go-1.24.6+-blue.svg)](https://golang.org/dl/)
 
 <p align="center">
@@ -24,7 +24,7 @@ A minimal Go library for **ABI encoding and decoding** without reflection or cod
 ### Installation
 
 ```bash
-go get github.com/blocky/abi
+go get github.com/dlm/abi
 ```
 
 ### Basic Usage
@@ -36,7 +36,7 @@ import (
     "fmt"
     "log"
 
-    "github.com/blocky/abi"
+    "github.com/dlm/abi"
 )
 
 func main() {
@@ -125,7 +125,7 @@ just test
 To maintain compatibility with the ethereum ABI standard, we test against
 outputs from the [go-ethereum](https://github.com/ethereum/go-ethereum)
 library.  We generate these outputs using the `abi-testdata` tool, which
-is developed in [abi-testdata](https://github.com/blocky/abi-testdata).
+is developed in [abi-testdata](https://github.com/dlm/abi-testdata).
 If you would like to add new types, you will likely need to update that
 project to add additional test data.
 

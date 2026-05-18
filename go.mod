@@ -1,4 +1,4 @@
-module github.com/blocky/abi
+module github.com/dlm/abi
 
 go 1.24.6
 
