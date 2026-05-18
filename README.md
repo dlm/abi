@@ -10,9 +10,6 @@
 
 A minimal Go library for **ABI encoding and decoding** without reflection or code generation.
 
-I started this project while at Blocky. But, since the company shutdown the
-library became unmaintained and so I am maintaining it over here.
-
 ## Why abi?
 
 - 🚀 **Zero dependencies** (except testing)
@@ -142,3 +139,11 @@ project to add additional test data.
 6. Commit your changes (`git commit -am 'Add amazing feature'`)
 7. Push to the branch (`git push origin feature/amazing-feature`)
 8. Open a Pull Request
+
+### Project History
+
+I started this project while I was at Blocky. But, when the company shutdown
+the library became unmaintained. I got approval from the leadership to fork and
+maintain it on my own.  So feel free to keep on using it!  If you keep using
+it, I'll keep updating it.  (And I'll even add more types if you have others
+that you need.)
