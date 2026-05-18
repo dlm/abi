@@ -10,6 +10,9 @@
 
 A minimal Go library for **ABI encoding and decoding** without reflection or code generation.
 
+I started this project while at Blocky. But, since the company shutdown the
+library became unmaintained and so I am maintaining it over here.
+
 ## Why abi?
 
 - 🚀 **Zero dependencies** (except testing)
